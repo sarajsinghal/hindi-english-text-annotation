@@ -28,6 +28,7 @@ These are workbook-reported counts, not independently verified findings.
 ## Known limitations
 
 - All labels are synthetic starter annotations and require fluent human review.
+- The label schema defines `Linguistic_Quality`, but that field is absent from the row-level `Noisy Dataset` columns; resolve this mismatch before review or analysis.
 - The workbook notes that `Error_Type` includes free-text combinations that need normalization to the listed taxonomy.
 - No inter-annotator agreement, adjudication results, sampling method, or model evaluation has been established.
 - Language conventions for romanized Hindi and mixed-language boundaries should be finalized before annotation.

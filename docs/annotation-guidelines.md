@@ -38,7 +38,7 @@ Use the workbook’s broad categories:
 - Articles / countability
 - Collocation / verb pattern
 
-The starter workbook contains free-text combinations in `Error_Type`. Normalize these values to the taxonomy before analysis. Keep the original workbook unchanged as a source snapshot; make normalization in a reviewed copy or a scripted transformation.
+The label schema defines `Linguistic_Quality` (`Correct`, `Minor Error`, `Major Error`), but this field is missing from the `Noisy Dataset` header. Add it to a reviewed copy or explicitly approve a documented mapping before using the severity fields as a substitute. The starter workbook also contains free-text combinations in `Error_Type`. Normalize these values to the taxonomy before analysis. Keep the original workbook unchanged as a source snapshot; make normalization in a reviewed copy or a scripted transformation.
 
 ## Review workflow
 
